@@ -1,8 +1,7 @@
 package dbconfig
 
 import (
-	"gopkg.in/mgo.v2"
-	"os"
+	mgo "gopkg.in/mgo.v2"
 )
 
 type DB struct {
@@ -18,10 +17,10 @@ func (db *DB) Name() string {
 }
 
 func DBUrl() string {
-	dburl := os.Getenv("MONGOHQ_URL")
+	dburl := "mongodb://qnotify:quezx123@ds063439.mongolab.com:63439/tsc"
 
 	if dburl == "" {
-		dburl = "localhost"
+		dburl = "mongodb://qnotify:quezx123@ds063439.mongolab.com:63439/tsc"
 	}
 
 	return dburl

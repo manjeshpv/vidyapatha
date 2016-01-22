@@ -1,7 +1,7 @@
 package todomodel
 
 import (
-	"gopkg.in/mgo.v2/bson"
+	bson "gopkg.in/mgo.v2/bson"
 	"time"
 )
 

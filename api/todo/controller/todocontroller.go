@@ -2,9 +2,9 @@ package todocontroller
 
 import (
 	"encoding/json"
-	"github.com/manjeshpv/vidyapatha/api/todo/dao"
+	tododao "github.com/manjeshpv/vidyapatha/api/todo/dao"
 	todo "github.com/manjeshpv/vidyapatha/api/todo/model"
-	"github.com/julienschmidt/httprouter"
+	httprouter "github.com/julienschmidt/httprouter"
 	"io/ioutil"
 	"net/http"
 )

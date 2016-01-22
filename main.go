@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/vidyapatha/routes"
-	"github.com/julienschmidt/httprouter"
+	routes "github.com/manjeshpv/vidyapatha/routes"
+	httprouter "github.com/julienschmidt/httprouter"
 	"net/http"
 )
 

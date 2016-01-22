@@ -1,8 +1,8 @@
 package todoroutes
 
 import (
-	"github.com/manjeshpv/vidyapatha/api/todo/controller"
-	"github.com/julienschmidt/httprouter"
+	todocontroller "github.com/manjeshpv/vidyapatha/api/todo/controller"
+	httprouter "github.com/julienschmidt/httprouter"
 )
 
 func Init(router *httprouter.Router) {

@@ -3,9 +3,9 @@ package tododao
 import (
 	"errors"
 	todo "github.com/manjeshpv/vidyapatha/api/todo/model"
-	"github.com/manjeshpv/vidyapatha/config"
-	"gopkg.in/mgo.v2/bson"
-	"time"
+	dbconfig "github.com/manjeshpv/vidyapatha/config"
+	bson "gopkg.in/mgo.v2/bson"
+	time "time"
 )
 
 const col string = "todos"
